@@ -1,17 +1,16 @@
 import PropTypes from 'prop-types';
+import { SectionTitle } from 'components/Section/Section.styled';
 
-const SectionTitles = ({ title, children }) => {
+export const Section = ({ title, children }) => {
   return (
     <section>
-      <h2>{title}</h2>
+      <SectionTitle>{title}</SectionTitle>
       {children}
     </section>
   );
 };
 
-SectionTitles.propTypes = {
+Section.propTypes = {
   title: PropTypes.string,
   children: PropTypes.node,
 };
-
-export default SectionTitles;
