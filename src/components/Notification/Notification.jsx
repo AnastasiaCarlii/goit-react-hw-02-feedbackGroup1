@@ -2,11 +2,7 @@ import PropTypes from 'prop-types';
 import { Report } from 'components/Notification/Notification.styled';
 
 export const Notification = ({ message }) => {
-  return (
-    <Report>
-      <p>{message}</p>
-    </Report>
-  );
+  return <Report>{message}</Report>;
 };
 
 Notification.propTypes = {

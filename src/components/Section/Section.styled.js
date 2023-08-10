@@ -1,5 +1,6 @@
 import styled from '@emotion/styled';
 export const SectionTitle = styled.h2`
   font-size: 25px;
-  color: green;
+  color: lightblue;
+  text-align: center;
 `;
